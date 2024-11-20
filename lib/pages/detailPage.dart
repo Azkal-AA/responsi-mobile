@@ -143,7 +143,6 @@ class _DetailPageState extends State<DetailPage> {
                 ),
               ),
               const SizedBox(height: 8),
-              // Menambahkan ikon bintang sebelum rating
               Row(
                 children: [
                   Icon(
