@@ -88,7 +88,7 @@ class _DetailPageState extends State<DetailPage> {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          'News Detail',
+          'Detail',
           style: TextStyle(color: Colors.white),
         ),
         backgroundColor: Colors.black87,
