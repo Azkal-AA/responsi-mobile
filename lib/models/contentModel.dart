@@ -82,12 +82,12 @@ class ContentModel {
 
   factory ContentModel.fromJson(Map<String, dynamic> json) {
     return ContentModel(
-      id: json['id'],
-      name: json['name'],
-      description: json['description'],
+      id: json['id'] ?? '',
+      name: json['name'] ?? '',
+      description: json['description'] ?? '',
       pictureId: json['pictureId'] ?? '',
       city: json['city'] ?? '',
-      rating: json['rating'] ?? '',
+      rating: json['rating']?.toString() ?? '',
     );
   }
 }
